@@ -362,15 +362,19 @@ li.slick-active{
     background-position: center center;
 
 }
-.con3{
-    margin: 0 auto;
-    width: 1280px;
+.sub_con2 .con3{
     text-align: right;
+    width: 1280px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: max-content;
 }
 .con3 .preasure{
+    width: 1280px;
     position: absolute;
-    top: 40%;
-    right: 40px;
+    top: 350px;
+    right: 0;
     /* writing-mode: vertical-lr; */
     margin-left: 30px;
 }
